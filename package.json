@@ -1,0 +1,53 @@
+{
+  "name": "K-Hotel-Booking-Engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@northwalker/vue-hotel-datepicker": "^2.0.7",
+    "@nulldreams/vue-loading": "0.0.1",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "moment": "^2.27.0",
+    "postcss": "^7.0.32",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "vue": "^2.6.11",
+    "vue-hotel-datepicker": "^3.0.10",
+    "vue-router": "^3.3.4",
+    "vue-simple-alert": "^1.1.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "tailwindcss": "^1.4.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
