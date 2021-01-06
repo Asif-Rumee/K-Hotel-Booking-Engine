@@ -10,7 +10,7 @@
   "dependencies": {
     "@northwalker/vue-hotel-datepicker": "^2.0.7",
     "@nulldreams/vue-loading": "0.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "moment": "^2.27.0",
     "postcss": "^7.0.32",
